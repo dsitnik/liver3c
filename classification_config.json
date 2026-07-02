@@ -1,0 +1,23 @@
+{
+    "patch_size": 384,
+    "batch_size": 32,
+    "max_epochs": 500,
+    "learning_rate": 1e-4,
+    "weight_decay": 0.01,
+    "min_cancer_threshold": 0.10,
+    "max_background_ratio": 2.0,
+    "grad_clip_norm": 1.0,
+    "num_workers": 4,
+    "early_stopping_patience": 20,
+    "continue_on_error": false,
+    "device": {
+        "use_cuda": true,
+        "cuda_device": 0
+    },
+    "class_names": {
+        "0": "background",
+        "1": "metastatic",
+        "2": "hcc",
+        "3": "cho"
+    }
+}

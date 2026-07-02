@@ -1,0 +1,23 @@
+{
+  "experiment": {
+    "name": "liver_cancer_nnunet_partitioned",
+    "description": "3-class liver cancer segmentation (metastatic / HCC / CHO) with held-out test partitions and nnU-Net v2",
+    "random_seed": 42
+  },
+  "data": {
+    "images_dir": "data/images",
+    "labels_dir": "data/labels",
+    "num_classes": 4,
+    "class_names": ["background", "metastatic", "hcc", "cho"],
+    "input_channels": 3
+  },
+  "training": {
+    "continue_on_error": false,
+    "num_workers": 4,
+    "max_epochs": 500
+  },
+  "device": {
+    "use_cuda": true,
+    "cuda_device": 0
+  }
+}

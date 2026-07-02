@@ -1,0 +1,17 @@
+{
+  "channel_names": {
+    "0": "channel_0",
+    "1": "channel_1",
+    "2": "channel_2"
+  },
+  "labels": {
+    "background": 0,
+    "metastatic": 1,
+    "hcc": 2,
+    "cho": 3
+  },
+  "numTraining": 134,
+  "numTest": 36,
+  "file_ending": ".png",
+  "overwrite_image_reader_writer": "SimpleITKIO"
+}
