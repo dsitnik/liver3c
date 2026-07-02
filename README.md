@@ -1,6 +1,6 @@
 # Semantic Segmentation–Driven Image-Level Diagnosis of Liver Cancer in Hematoxylin & Eosin Histopathology Images - Study Replication Package
 
-Supplementary code and procedures for our liver cancer study on 3-channel MRI.
+Supplementary code and procedures for our liver cancer study on 3-channel images.
 The pipeline performs **multi-class segmentation** (4 classes: background, metastatic,
 HCC, CHO) with nnU-Net v2, and **patch-based classification / diagnosis** with five
 modern CNN/transformer backbones, evaluated with rigorous patient-level
