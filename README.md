@@ -1,4 +1,4 @@
-# Liver Cancer Segmentation & Classification - Study Replication Package
+# Semantic Segmentation–Driven Image-Level Diagnosis of Liver Cancer in Hematoxylin & Eosin Histopathology Images - Study Replication Package
 
 Supplementary code and procedures for our liver cancer study on 3-channel MRI.
 The pipeline performs **multi-class segmentation** (4 classes: background, metastatic,
